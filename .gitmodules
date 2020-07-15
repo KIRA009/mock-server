@@ -1,0 +1,6 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/KIRA009/mock-server-client.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/KIRA009/mock-server-backend.git
