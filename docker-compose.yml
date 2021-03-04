@@ -2,6 +2,8 @@ version: "3.7"
 
 services: 
   client:
+    container_name: mock_server_client
+    image: iamkira/mock-server_client
     build: ./client
     ports:
       - "3000:3000"
@@ -14,6 +16,8 @@ services:
     restart: always
     
   backend:
+    container_name: mock_server_backend
+    image: iamkira/mock-server_backend
     build: ./backend
     ports: 
       - "8000:8000"
